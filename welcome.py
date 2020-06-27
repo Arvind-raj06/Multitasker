@@ -48,7 +48,7 @@ while(True):
         print("\n")
         print("\t how did you get the access? \n")
         input("\t Get out of this login \n")
-        intru=open("intruder.txt")
+        intru=open("Intruder.txt")
         now = datetime.now()
         intru.write(now)
         intru.write("\n")
