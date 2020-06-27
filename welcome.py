@@ -1,4 +1,5 @@
 print("Welcome!!!")
+from datetime import datetime
 a=0
 c=0
 ''' Type in your first name with @123'''
@@ -47,6 +48,12 @@ while(True):
         print("\n")
         print("\t how did you get the access? \n")
         input("\t Get out of this login \n")
+        intru=open("intruder.txt")
+        now = datetime.now()
+        intru.write(now)
+        intru.write("\n")
+        intru.write(g)
+        intru.close
         a=a+1
 o=x
 def welcome():
